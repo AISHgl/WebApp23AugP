@@ -31,7 +31,7 @@ public class HomeController {
 		map.forEach((k,v)->System.out.println("key "+k+"value "+v));
 		System.out.println("HelloController GETTT");
 		//Constructor with name mod3el and view
-		//objectName //ClassName =new oBjname("viewName");
+           //  ClassnAME  //oBJnAME(aNYnAME EG:sit = new classname("ViewName");
 		ModelAndView modelAndView=new ModelAndView("/home");
 		String name="Aish";
 		modelAndView.addObject("name",name);
